@@ -1,4 +1,5 @@
-<?php  
+<?php
+ob_start();
 require '../vendor/autoload.php';  
 require '../src/models/dev.php';  
 require '../src/handlers/exceptions.php';
